@@ -25,25 +25,39 @@
 
     // DEFAULT CODE ABOVE, SHOULD BE ABLE TO DELETE SAFELY
 
+// import './App.css'
+
+// function App() {
+//   const canvas = document.querySelector('canvas')
+
+//   const ctx = canvas.current.getContext('2d') 
+
+//   canvas.width = 1024 // want this to be reactive, will alter soon
+//   canvas.height = 576 // want this to be reactive, will alter soon
+
+//   ctx.fillStyle = 'white'
+//   ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+//   console.log(canvas)
+
+//   return (
+//     <>
+//       <canvas></canvas>
+//     </>
+//   );
+// }
+
+import Canvas from './components/Canvas';
 import './App.css'
 
+const draw = context => {
+
+  // insert canvas API code to draw an image?
+};
+
 function App() {
-  const canvas = document.querySelector('canvas')
-
-  const ctx = canvas.getContext('2d') 
-
-  canvas.width = 1024 // want this to be reactive, will alter soon
-  canvas.height = 576 // want this to be reactive, will alter soon
-
-  ctx.fillStyle = 'white'
-  ctx.fillRect(0, 0, canvas.width, canvas.height)
-
-  console.log(canvas)
-
   return (
-    <>
-      <canvas></canvas>
-    </>
+    <Canvas draw={draw} height={576} width={1024} />
   );
 }
 
