@@ -57,7 +57,7 @@ const draw = context => {
 
 function App() {
   return (
-    <Canvas draw={draw} height={576} width={1024} />
+    <Canvas draw={draw} height={900} width={900} />
   );
 }
 
