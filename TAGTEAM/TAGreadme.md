@@ -7,6 +7,7 @@
 >  1. Have a tile-based map that players can traverse
 >  2. Have two different colors of teams
 >  3. Have the colors change when a group tags the other group, ability to change sides
+>>  + Need to have a factor determining who "tagged" who - dodgeball maybe?
 >  4. Using energy like mobile games do
 >>  +  Energy spent to do tasks, want to make sure you are not stuck outside with no energy (buildings), resource management 
 >
