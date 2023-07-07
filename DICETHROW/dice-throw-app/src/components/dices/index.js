@@ -10,10 +10,10 @@ function Dices() {
     let diceImages = [
         '../images/slime.png',
         '../images/logo192.png',
-        '../images/logo512.png',
-        '../images/slime.png',
-        '../images/logo192.png',
-        '../images/dice6.svg',
+        '../images/face-to-face.png',
+        '../images/drop.png',
+        '../images/dice-shield.png',
+        '../images/shopping-cart.png',
       ];
     const roll = () => {
         const firstRandomNum = Math.floor(Math.random() * 6);
