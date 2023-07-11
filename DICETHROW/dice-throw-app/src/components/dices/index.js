@@ -19,16 +19,18 @@ function Dices() {
         const firstRandomNum = Math.floor(Math.random() * 6);
         const secondRandomNum = Math.floor(Math.random() * 6);
 
-  if (firstRandomNum > secondRandomNum) {
-    //console.log(`The winner is user 1 with ${firstRandomNum + 1} points`);
-    setResult(`The winner is user 1 with ${firstRandomNum + 1} points`);
-  } else if (firstRandomNum < secondRandomNum) {
-    //console.log(`The winner is user 2 with ${secondRandomNum + 1} points`);
-    setResult(`The winner is user 2 with ${secondRandomNum + 1} points`);
-  } else {
-    //console.log(`It's a draw!`);
-    setResult(`It's a draw!`);
-  }
+
+  // uSED TO COMPARE VALUES FOR WINNER      
+  // if (firstRandomNum > secondRandomNum) {
+  //   //console.log(`The winner is user 1 with ${firstRandomNum + 1} points`);
+  //   setResult(`The winner is user 1 with ${firstRandomNum + 1} points`);
+  // } else if (firstRandomNum < secondRandomNum) {
+  //   //console.log(`The winner is user 2 with ${secondRandomNum + 1} points`);
+  //   setResult(`The winner is user 2 with ${secondRandomNum + 1} points`);
+  // } else {
+  //   //console.log(`It's a draw!`);
+  //   setResult(`It's a draw!`);
+  // }
 
   console.log(firstRandomNum + 1, secondRandomNum + 1);
   
